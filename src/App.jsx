@@ -1,5 +1,6 @@
 import "./App.css";
 import { Characters } from "./components/Characters";
+import { Cart } from "./components/Carrito";
 
 // 👋 Punto de partida limpio para las clases 40 y 41.
 //
@@ -17,7 +18,7 @@ function App() {
       <ul>
         <Characters/>
         <li>
-          <code>src/components/</code> → componentes (<code>Carrito</code>, <code>Cabecera</code>…)
+          <Cart/>
         </li>
         <li>
           <code>src/store/</code> → stores de Zustand (clase 41)
