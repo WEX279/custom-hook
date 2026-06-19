@@ -1,0 +1,30 @@
+import "./App.css";
+import { Characters } from "./components/Characters";
+
+// 👋 Punto de partida limpio para las clases 40 y 41.
+//
+// Aquí iremos montando, en vivo:
+//   Clase 40 → src/hooks/useFetch.js  +  src/components/Carrito.jsx (useReducer)
+//   Clase 41 → src/store/useCarritoStore.js (Zustand) + Cabecera y Catalogo
+//
+// Sustituye este componente por lo que vayamos construyendo en clase.
+
+function App() {
+  return (
+    <main>
+      <h1>Clase 40-41 · Hooks y Zustand</h1>
+      <p>Proyecto base listo. Empezamos de cero 🚀</p>
+      <ul>
+        <Characters/>
+        <li>
+          <code>src/components/</code> → componentes (<code>Carrito</code>, <code>Cabecera</code>…)
+        </li>
+        <li>
+          <code>src/store/</code> → stores de Zustand (clase 41)
+        </li>
+      </ul>
+    </main>
+  );
+}
+
+export default App;
